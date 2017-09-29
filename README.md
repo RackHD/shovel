@@ -1,5 +1,7 @@
 # Shovel(RackHD/OpenStack Coordinator)
 
+Copyright © 2017 Dell Inc. or its subsidiaries.  All Rights Reserved. 
+
 ## Description
 Shovel is an application that provides a service with a set of APIs that wraps around RackHD/Ironic existing APIs allowing users to find Baremetal Compute nodes dynamically  discovered by RackHD and register/unregister them with Ironic (OpenStack Bare Metal Provisioning Program).Shovel also provides poller service that monitors compute nodes and logs the errors from SEL into Ironic Database.
 
@@ -22,7 +24,14 @@ alt="Shovel" width="240" height="180" border="10" /></a>
 ### Services Diagram
 ![alt text](snapshot/shovel_func.png)
 
+
 ## Licensing
+
+Licensed under the Apache License, Version 2.0 (the “License”); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an “AS IS” BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+RackHD is a Trademark of Dell EMC
 
 ## Support
 Please file bugs and issues at the GitHub issues page.
